@@ -1,2 +1,17 @@
 # SpectrumAnalysis
-Spectrum analysis of the function to determine the parameters of the oscillations.
+Spectrum analysis of the function to determine the parameters of the oscillations  
+Спектральный анализ функции для определения параметров колебаний
+
+Данный алгоритм вычисляет спектр для перемещений, используя показания акселерометра.
+Для этого на основании показаний акселерометра строится частотный спектр ускорений с помощью Быстрого Преобразования Фурье (БПФ). На основании спектра ускорений строится спектр перемещений. Данный спектр показывает амплитуды и частоты гармоник, отражающих колебательный процесс.
+
+Показания акселерометра имеют вид
+![image](https://user-images.githubusercontent.com/90692406/217901312-a1ca16e9-8e94-49be-bc2d-c932c994768f.png)
+
+Спектр ускорений имеет вид
+![image](https://user-images.githubusercontent.com/90692406/217901559-f2f73f0e-abb8-49fc-9b59-68497d21d593.png)
+
+Спектр перемещений имеет вид
+![image](https://user-images.githubusercontent.com/90692406/217901668-da74bcf2-8b3b-4ee8-b618-833038f688ea.png)
+
+
